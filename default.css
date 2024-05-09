@@ -65,11 +65,6 @@ body {
     margin-bottom: 80px;
 }
 
-#main-image:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0px 10px rgba(255, 255, 255, 0.479) !important;
-}
-
 .container {
     color: white;
 }
