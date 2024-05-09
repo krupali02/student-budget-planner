@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Budget Planner</title>
+    <link rel="stylesheet" type="text/css" href="default.css" title="style" />
+    <script src="default.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/eok3cxa.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Anonymous Pro' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+      <!-- Creating Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarFull" style="z-index: 1000;">
+        <a id="logoLink" href="https://krupali02.github.io/krupalis-personal-portfolio/" ><img id="logo" src="img/logo.png"  width=50px height=55px style="margin-top: 0.3cm;"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+          <div id="navbarButtons">
+            <a id="resume-link" class="btn btn-outline-primary" href="Resume/KrupaliPatel_Resume.pdf" target="_blank" >Resumé</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="bodyFull">
+
+        <!-- student budget planner header-->
+        <div id="projects">
+            <br>
+            <h2 class="d-flex" id="projectHeader">Student Budget Planner</h2>
+
+            <!-- main image -->
+            <img src="img/mockup_student_budget_planner_2.png" class="img-fluid"   id="main-image">
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p class="title-column">Timeline</p>
+                <p class="value-column">Sept 2022 - Dec 2022</p>
+              </div>
+              <div class="col-sm">
+                <p class="title-column">Platform</p>
+                <p class="value-column">Mobile</p>
+              </div>
+              <div class="col-sm">
+                <p class="title-column">Skills</p>
+                <p class="value-column">UI Development</p>
+                <p class="value-column">Wireframe & Prototypes</p>
+                <p class="value-column">User Research</p>
+              </div>
+              <div class="col-sm">
+                <p class="title-column">Tools</p>
+                <p class="value-column">Figma</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- divider -->
+          <hr> 
+
+
+          <!-- PROBLEM -->
+          <h2 class="heading" style="margin-top: 70px;">The Problem</h2>
+          <p class="bodyText">Many students face challenges related to their finances. There are many factors that affect how much each student might be spending. For example, in terms of tuition fees, international students have a greater amount to pay compared to Canadian students attending York University. Additionally, students who commute everyday have to worry about their transportation fees versus a student who is living on campus can just walk to their classes. However, living on campus as a student means that they have to pay rent and utilities fees. Also, there are some financial issues that are relatable to most students, such as spending money on food, textbooks, gym memberships etcetera. In order to minimize these issues, we have brainstormed and came up with the following problem solutions.
+          </p>
+
+
+          <!-- USER INTERVIEWS AND INSIGHTS -->
+          <h2 class="heading" style="margin-top: 120px;">User interviews & Insights</h2>
+          <p class="bodyText">Interviews were conducted among peers attending university. In order to capture the main requirements of the application, the main question asked was <strong>“Have you or your peers experienced any challenges during the transition back to university, in regards to commuting, health and safety, wellness, time management, food and diet or other opportunities or problems and if so, what were they?”</strong>. From this, follow-up questions were asked, such as their study year, major and whether they are living on or off campus. Some of the responses were as followed:
+          </p>
+
+          <div class="container">
+            <div class="row">
+              <div class="col interviews">
+                “Being a commuter student, I have found it difficult to manage my time in terms of balancing my school and social life. Due to my commutes being an hour long to and from campus, I have to accommodate a large amount of my time towards organizing my tasks, assignments and studying. Additionally, due to school slowly transitioning to mandatory in person classes, I had to attend classes most days of the week. As a result, I needed to consider the cost of transportation during those days. So overall, time management and transportation costs have been one of the bigger challenges for me as we slowly started to come back to campus.”</div>
+
+              <div class="col interviews">“The university gym is very small and overpopulated. There are thousands of students who come to York, and for the students who live on campus this is the nearest gym in their vicinity. It takes over two hours to get a simple workout done especially during rush hour because of how little equipment there is compared to the amount of people who are looking to use the equipment”
+
+              </div>
+              <div class="w-100"></div>
+              <div class="col interviews">“A major concern for me, is maintaining my health and well-being, which includes my physical, mental and emotional well-being. There aren’t many services or suitable options on campus for me to stay healthy. An example is the state of the York gym, how overcrowded it is and the limited time it is open for. I am not able to exercise at times due to clashes with my classes and it closing at 10pm when that is when most classes end. Then there’s the food options to stay healthy; most places on campus aren’t affordable and again most of these places or only open for a couple hours and it is when we are in class. Another example is the mental health resources; we understand that as students our priority is school, but we need to balance with other life experiences that affect our mental health. When we don’t have the proper options or services available to take care of our mental health on campus, it drastically affects our academics, and if you do find resources outside, the school doesn’t support you and take into account that this service is legitimate for our success since it is not under their administration.”
+              </div>
+            </div>
+          </div>
+
+          <h6 style="margin-top: 30px;">From these responses, our team determined three main commonalities:</h6>
+
+          <div class="row">
+            <div class="col text-center blocks">
+              <h5>Time Management</h5>
+              <p>It is really hard to manage time in university due to course loads, constant work projects, and even harder for commuters. Many students at York seem to have more of a time management issue because York is in fact mostly a commuter school.</p>
+            </div>
+            <div class="col text-center blocks">
+              <h5>Finances</h5>
+              <p>Students have to balance their tuition fees, food, cost of living, transportation, and rent (depending on if they live on campus or not). This can cause a lot of financial distress, especially because oftentimes students are working minimum wage jobs with limited hours.</p>
+            </div>
+            <div class="col text-center blocks">
+              <h5>Mental Health</h5>
+              <p>Being on campus for excessive amounts of time while being a commuter, having financial distress, as well as school stress piling up, and not having a proper gym to regulate physical health can all take a toll on mental health of students.</p>
+            </div>
+          </div>
+
+
+
+          <!-- PERSONAS -->
+          <h2 class="heading">Personas</h2>
+          <p class="bodyText">Two personas were created for this case study. The <strong>primary persona</strong> being that of a commuter student who lives off campus and spends excessive money and time on either transit or on gas and parking. The <strong>secondary persona</strong> is a resident student lives on campus. They do not have to spend excessive time and money on transit, gas, or parking, but they do have to pay rent.
+          </p>
+
+          <div class="row">
+            <div class="col-6" style="border: none;">
+              <img src="img/persona1.png" class="img-fluid personas"   >
+              <div class="text-center personaLabel">Primary Persona</div>
+            </div>
+            <div class="col-6">
+              <img src="img/persona2.png" class="img-fluid personas"   >
+              <div class="text-center personaLabel">Secondary Persona</div>
+            </div>
+          </div>
+
+          <p class="bodyText" style="margin-top: 50px;">Looking at the personas Maddie, and Vladimir, it is understood that both of them are having a hard time organizing their expenses, understanding where their money is going, and learning how to maximize their savings and minimize their unnecessary spending. It especially becomes hard to keep track of their money because of the highly demanding and busy lifestyles they are both living. Vladimir has long days including a part time job, and Maddie is in a rigorous program commuting about an hour to school.
+          </p>
+
+          <div class="row">
+            <div class="col text-center goalBlock">
+              <p>Maddie's main goal is to organize her expenses more efficiently and Vladamir's main goal is to budget well and cut unnecessary expenses. Both of these goals can be met through our application.
+              </p>
+            </div>
+          </div>
+
+
+
+        <!-- Sketches, Lo-fi Prototype and Wireframe -->
+        <h2 class="heading">Sketches, Lo-fi Prototype and Wireframe</h2>
+        <p class="bodyText">A budgeting application that allows students to track, budget and organize their expenses. Our application will take into consideration a student's personal goals, expenses, preferences, and earnings and use this data to help the student plan and proceed with their earnings, in a way which is most beneficial for them. The app will include different expense categories, and allow the student to allocate the desired amount they want to spend on each of these categories. The application will keep track of whether the student is within budget and help them reach their financial goals.</p>
+        
+        <!-- lo fi prototype  -->
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-10">
+              <img style=" border-radius: 7px" src="img/lo_fi_prototype.png" class="img-fluid personas"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Sketches of Scenario </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- lo fi prototype  -->
+         <div style="margin-top: 70px;" class="container">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-10">
+              <img style=" border-radius: 7px" src="img/sketch_prototype.png" class="img-fluid personas"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Lo-Fi Prototype</div>
+            </div>
+          </div>
+        </div>
+
+
+         <!-- wireframe  -->
+         <div style="margin-top: 70px;" class="container">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-10">
+              <img style=" border-radius: 7px" src="img/wireframe.png" class="img-fluid personas"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Wireframe</div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <!-- Mockups & Page Descriptions -->
+        <h2 class="heading">Mockups & Page Descriptions</h2>
+ 
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/login.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Login Page</div>
+              <p class="mockup_description"> This page will consist of two text fields, the email and password text fields. From there, the user can either fill in these text fields and click on the login button or click the option at the bottom that mentions that if they already have an account, they can click the hyperlink to sign in, which leads them to the sign-in page.</p>
+            </div>
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/signup.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Sign Up Page</div>
+              <p class="mockup_description"> For new users who still need an account. The signing process consists of three main steps/pages. The first page requires the user to add their information, such as their name, email address, password, and an optional feature to add their university. The second page is catered towards creating a personalized homepage for them. Here, users must select three or more categories they would like to budget for. The third page depends on the second page, where users must put specific amounts regarding their budgeting values for each category and their savings. Once the user creates their account, they press the done button to indicate that their sign-up process has been completed.
+              </p>
+            </div>
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/home.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Home Page</div>
+              <p class="mockup_description">
+                Here, the user see an overview of the budget in the pie chart and their progress, which tells them how much they've made in the year against their spending - for any or all categories. The users can click each category and look at the specific transactions for the respective categories. Users can also add any new transactions for the categories using the plus button. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/calendar.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Calendar Page</div>
+              <p class="mockup_description">
+                Users can also view the calendar page, which offers a detailed breakdown of daily spending under respective dates, providing insights into their spending patterns. Users can access a summary of total expenses, income, and balance. This feature helps them gauge whether they've stayed within their monthly spending budget. Also, users can conveniently add income and expenses directly from the calendar view, accessing templates for the previous and upcoming months.
+              </p>
+            </div>
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/goals.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Goals Page</div>
+              <p class="mockup_description">
+                In terms of creating goals, in this section, users can set and monitor specific saving goals for future events or desired purchases, such as trips or electronic devices. Users can set goals by specifying the relevant category, the target due date, and the desired amount to achieve their savings objectives. 
+              </p>
+            </div>
+            <div class="col-lg-4 justify-content-md-center">
+              <img src="img/profile.png" class="img-fluid mockup"  >
+              <div style="font-size: 25px;" class="text-center personaLabel">Profile Page</div>
+              <p class="mockup_description">
+                Users can access their profile page to edit personal details, adjust app settings, and explore additional features like FAQs, notifications, and other app-related settings. The profile section also allows users to provide feedback, share opinions, and rate the app, contributing to continuous improvements and enhancements.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Mockups & Page Descriptions -->
+        <h2 style="margin-top: 150px;" class="heading">Final Product</h2>
+
+        <div class="row">
+          <div style="margin-right: 30px;" class="col-2">
+            <button type="button" class="btn btn-primary">Figma Prototype</button>
+          </div>
+          <div class="col-3">
+            <button type="button" class="btn btn-primary">Video Walkthrough</button>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div style="padding-right: 25px;" class="col"> <img style="border-radius: 15px;" class="card-img final-mockup" src="img/mockup1.png" alt="Card image"></div>
+          <div style="padding-left: 25px;" class="col"><img style="border-radius: 15px;" class="card-img final-mockup" src="img/mockup_2.png" alt="Card image"></div>
+        </div>
+
+        <div class="row">
+          <div style="margin-top: 40px;padding-right: 25px;" class="col"><img style="border-radius: 15px;" class="card-img final-mockup" src="img/mockup_3.png" alt="Card image"></div>
+          <div style="margin-top: 40px; padding-left: 25px;" class="col"><img style="border-radius: 15px;" class="card-img final-mockup" src="img/mockup_4.png" alt="Card image"></div>
+        </div>
+
+
+      <h3 class="text-start footer">Thanks for reading this case study!</h3>
+      <h5 style="font-weight: 300;">If you have any questions or would like to know more, feel free to contact me.</h5>
+      <br>
+      <a href="https://krupali02.github.io/krupalis-personal-portfolio/" id="back">Go Back.</a>
+
+    
+
+
+        <!-- end of main body -->
+      </div>
+
+  </body>
+</html>
